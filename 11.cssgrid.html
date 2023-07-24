@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            csss grid
+        </title>
+    </head>
+    <body>
+        <!-- A grid is a layput which has rows and columns-->
+        <!-- there a re many disadvantages with the css display :inline-block in order to achieve the horizontal layout and and we have to assign some widht to separate those, then there is a gap we get if we this -->
+        <!--but using display:grid property we can overocme those and -->
+        <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;
+        
+        "> 
+        <!--setinig display makes its elements to display in grid structure-->
+        <!--grid template columns tells how many columns are there in the each row and its size -->
+             <div style="background-color: lightblue;">div1</div>
+             <div style="background-color: lightgreen;">div2</div>
+        </div>
+
+
+        <div style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        
+        "> 
+        <!--setinig display makes its elements to display in grid structure-->
+        <!--grid template columns tells how many columns are there in the each row and its size -->
+             <div style="background-color: lightblue;">div1</div>
+             <div style="background-color: lightgreen;">div2</div>
+             <div style="background-color: lightblue;">div3</div>
+             <div style="background-color: lightgray;">div3</div>
+             <div style="background-color: lightpink;">div3</div>
+            
+        </div>
+
+        <div style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        
+        "> <!-- 1 fr means free remainng space,means after givind the 100px for first one it going to take the remaing the space-->
+        <!--setinig display makes its elements to display in grid structure-->
+        <!--grid template columns tells how many columns are there in the each row and its size -->
+             <div style="background-color: lightblue;">div1</div>
+             <div style="background-color: lightgreen;">div2</div>
+        </div>
+
+
+        <div style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        
+        "> <!-- 1 fr  and 2fr means it fro remainh space it divides into 3 parts 1 part for 2nd and 2 parts for 3rd one-->
+        <!--setinig display makes its elements to display in grid structure-->
+        <!--grid template columns tells how many columns are there in the each row and its size -->
+             <div style="background-color: lightblue;">div1</div>
+             <div style="background-color: lightgreen;">div2</div>
+                <div style="background-color: lightpink">div2</div>
+
+        </div>
+
+
+    </body>
+    </html>
