@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flexbox</title>
+        
+    </head>
+    <body>
+        <!--similar grid thses were also used to make elements to fit horizontally
+        but inlike grid they only take as much space as they need-->
+        <!--flex box is more flfexible  and grid is more rigid layout-->
+   <div style="
+   display: flex;
+   flex-direction: row;
+    ">
+    <div style="background-color: lightpink;">
+         div1
+    </div>
+
+    <div style="background-color: lightblue;">
+        div2 text <p>text</p> <!-- when we are adding it is incresing horizontally-->
+    </div>
+   </div>
+
+   <div style="
+   display: flex;
+   flex-direction: row;
+   height: 70px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: grey;
+
+
+   margin-top: 20px;
+    ">
+    <div style="background-color: lightpink;
+      width: 100px; "> 
+         100px
+    </div>
+
+    <div style="background-color: lightblue;
+    width: 100px;
+     ">
+        flex:1 <!-- when we are adding it is incresing horizontally-->
+    </div>
+
+    <div style="background-color: lightpink;
+    width: 100px;
+     ">
+      flex2
+ </div>
+
+   </div>
+
+
+   <!--justify content(combination of all items)tells that how all aligments are aligned toghter weahter it is 1.start 2.end 3.cener 4.space-between
+ -->
+ <!--alignitems(tells how each elements vertically)tells how the elemnets are aligned vertically either-->
+   <div style="
+   display: flex;
+   flex-direction: row;
+   height: 70px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: grey;
+  
+   justify-content: center;
+   justify-content: end;
+   justify-content: start;
+   justify-content: space-between;
+   align-items: strech;
+   align-items: center;
+   align-items: start;
+   align-items: end;
+   align-items: center;
+
+
+   margin-top: 20px;
+    ">
+    <div style="background-color: lightpink;
+      width: 100px; "> 
+         100px
+    </div>
+
+    <div style="background-color: lightblue;
+    width: 100px;
+     ">
+        flex:1 <!-- when we are adding it is incresing horizontally-->
+    </div>
+
+    <div style="background-color: lightpink;
+    width: 100px;
+     ">
+      flex2
+ </div>
+
+   </div>
+    </body>
+</html>
