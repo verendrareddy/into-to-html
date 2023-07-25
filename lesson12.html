@@ -1,0 +1,360 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>lesson12</title>
+
+        <style>
+            /*12a*/
+            .lesson12a{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+            }
+            .lesson12a1{
+                width: 200px;
+                background-color: lightblue;
+            }
+            .lesson12a2{
+                width: 75px;
+                background-color: lightpink;
+            }
+
+             /*12b*/
+             .lesson12b{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+            }
+            .lesson12b1{
+                width: 50px;
+                background-color: lightblue;
+            }
+            .lesson12b2{
+                flex: 1;
+                background-color: lightpink;
+            }
+            .lesson12b3{
+                background-color: lightblue;
+                width: 75px;
+            }
+
+
+            /*12c*/
+            .lesson12c{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+                justify-content: space-between;
+                border-style: solid;
+                border-width: 1px;
+                
+
+            }
+            .lesson12c1,.lesson12c2,.lesson12c3,.lesson12c4{
+                background-color: lightpink;
+            }
+
+
+            /*12d*/
+
+            .lesson12d{
+                display: flex;
+                flex-direction: row;
+                height: 50px;
+                border-color: grey;
+                border-style: solid;
+                border-width: 1px;
+                align-items: center;
+                justify-content: space-between;
+                
+            }
+       
+    .lesson12d1,.lesson12d2{
+        background-color: lightpink;
+    }
+
+        /*12e*/
+        .lesson12e{
+            width: 300px;
+            margin-bottom: 30px;
+        }
+        .lesson12e1{
+            display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+
+
+
+        }
+        .para12e{
+            font-family: arial;
+            font-weight: bold;
+            
+        }
+        .btn12e{
+            color: white;
+            height: 25px;
+            
+            background-color: rgb(49, 109, 245) ;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 15px;
+            font-family: arial;
+            border: none;
+            
+            
+
+        }
+         
+        .lesson12g{
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .lesson12g1{
+            width: 50px;
+            margin-right: 40px;
+        }
+        .profilepic{
+            border-radius: 999px;
+
+        }
+        .lesson12g2{
+            line-height: 19px;
+            flex: 1;
+        }
+  
+      
+
+        .lesson12btn{
+            width: 60px;
+           
+        }
+        .btn12g3{
+            background-color: rgb(49, 109, 245);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: 17px;
+
+        }
+
+        /*12f*/
+
+        .lesson12f{
+            display: flex;
+            flex-direction: row;
+        justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(162, 0, 255);
+            border: none;
+            margin-bottom: 100px;
+
+        }
+        .para12f{
+            color: white;
+            font-family: arial;
+            margin-left: 18px;
+            width: 100px;
+
+        }
+
+        .input12f{
+            flex: 1;
+            border: none;
+            border-radius: 18px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-family: Arial;
+
+        }
+        .placeholder{
+            margin-left: 15px;
+        }
+
+        .btn12f{
+            width: 100px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-family: arial;
+            background-color: rgb(162, 0, 255);
+            border-style: solid;
+            border-width: 1px;
+            border-color: white;
+            color: white;
+            margin-left: 60px;
+            margin-right: 15px;
+
+
+        }
+       
+       
+
+        </style>
+    </head>
+
+    <body>
+    
+        <!--12a-->
+        <div class="lesson12a">
+            <div class="lesson12a1">200px</div>
+            <div class="lesson12a2">75px</div>
+        </div>
+
+        <!--12b-->
+        <div class="lesson12b">
+            <div class="lesson12b1">
+                item1
+            </div>
+            <div class="lesson12b2">
+                item2
+            </div>
+            <div class="lesson12b3">
+                item3
+            </div>
+        </div>
+
+
+         <!--12c-->
+         <div class="lesson12c">
+            <div class="lesson12c1">
+                item1
+            </div>
+            <div class="lesson12c2">
+                item2
+            </div>
+            <div class="lesson12c3">
+                item3
+            </div>
+            <div class="lesson12c4">
+                item4
+            </div>
+        </div>
+
+        <!---->
+        <!--12d-->
+        <div class="lesson12d">
+            <div class="lesson12d1">item1</div>
+            <div class="lesson12d2">item2</div>
+        </div>
+
+        <!--12e-->
+        <div class="lesson12e">
+            <div class="lesson12e1">
+             <p class="para12e">Home</p>
+             <button class="btn12e" >14</button>
+            </div>
+
+            <div class="lesson12e1">
+                <p class="para12e">Notifications</p>
+                <button class="btn12e" >3</button>
+               </div>
+
+               <div class="lesson12e1">
+                <p  class="para12e" >Messages</p>
+                <button class="btn12e" >5</button>
+               </div>
+
+
+        </div>
+
+        <!--12g-->
+        <div class="lesson12g">
+    
+        <div class="lesson12g1">
+        <img class="profilepic" src="channel-1.jpeg">
+        </div>
+
+            
+           <div class="lesson12g2">
+             <p style="font-family: arial;font-weight: bold;margin-bottom: 5px;">Oiliver</p>
+             <p style="font-family: arial; color: grey; margin-top: 3px;margin-bottom: 3px;">hte cat</p>
+             <p style="font-family: arial;color: grey;margin-top: 3px;">Popular</p>
+             </div>
+
+        
+
+        <div class="lesson12g3"><button class="btn12g3">Follow</button>
+                
+
+            </div>
+
+    </div>
+
+
+          
+
+    <div class="lesson12g">
+    
+        <div class="lesson12g1">
+        <img class="profilepic" src="channel-1.jpeg">
+        </div>
+
+            
+           <div class="lesson12g2">
+             <p style="font-family: arial;font-weight: bold;margin-bottom: 5px;">Oiliver</p>
+             <p style="font-family: arial; color: grey; margin-top: 3px;margin-bottom: 3px;">hte cat</p>
+             <p style="font-family: arial;color: grey;margin-top: 3px;">Popular</p>
+             </div>
+
+        
+
+        <div class="lesson12g3"><button class="btn12g3">Follow</button>
+                
+
+            </div>
+
+    </div>
+
+
+
+
+
+    <div class="lesson12g">
+    
+        <div class="lesson12g1" style="margin-bottom: 50px;">
+        <img class="profilepic" src="channel-1.jpeg">
+        </div>
+
+            
+           <div class="lesson12g2">
+             <p style="font-family: arial;font-weight: bold;margin-bottom: 5px;">Oiliver</p>
+             <p style="font-family: arial; color: grey; margin-top: 3px;margin-bottom: 3px;">hte cat</p>
+             <p style="font-family: arial;color: grey;margin-top: 3px;">Popular</p>
+             </div>
+
+        
+
+        <div class="lesson12g3"><button class="btn12g3">Follow</button>
+                
+
+            </div>
+
+    </div>
+    
+    <!--12f-->
+
+    <div class="lesson12f">
+
+      <p class="para12f">Home</p>
+       <input  class="input12f" type="text"  placeholder="search">
+          <button class="btn12f">Download</button>
+        
+
+
+
+    </div>
+
+    </body>
+</html>
